@@ -1,0 +1,14 @@
+# 服务注册中心 (单节点)
+server:
+  port: 8082
+
+spring:
+  application:
+    name: warehouse
+  cloud:
+    nacos:
+      discovery:
+        server-addr: http://172.50.80.180:18848
+
+
+
